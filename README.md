@@ -1,4 +1,4 @@
-# Ball_Beam
+# Ball and Beam Experiment in Remote Lab
 Documentation on how to use "Ball and Beam Experiment" over ACROME's [Remote Lab](https://remote.acrome.net/) service.
 
 <p align="center"> <span>Select your language:</span></p>
