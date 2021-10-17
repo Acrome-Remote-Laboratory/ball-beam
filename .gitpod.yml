@@ -3,7 +3,8 @@ tasks:
   - init: echo 'init script' # runs during prebuild
     command: echo 'start script'    
 
-  - command: sshfs.add pi
+  - name: SSH_FS
+    init: sshfs.add 
 
   - name: remote_terminal
     init: ssh pi@149.0.56.172
