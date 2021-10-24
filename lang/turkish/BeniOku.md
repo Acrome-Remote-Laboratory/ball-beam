@@ -3,6 +3,8 @@ Bu proje "**Ball Beam**" (Top ve Çubuk) deney setinin **Remote Lab** hizmetinde
 
 Diğer dillerde bu döküman:  [English](https://github.com/candancaner/ball-beam/blob/main/README.md)  |  [Français](https://github.com/candancaner/ball-beam/blob/main/lang/french/ReadMe.md/)
 
+![Ball Beam Experiment Systems](https://github.com/candancaner/ball-beam/raw/main/images/bb_remotelab.png)
+
 Bu sayfa Remote Lab hizmet hakkında genel bilgiler sunma amaçlıdır. Ball Beam Deneyi'nin detaylı anlatımı ve bir ders içerisinde kullanımı için [**Wiki**](https://github.com/candancaner/ball-beam/wiki) kısmını okumalısınız.
 
 Remota Lab, bu döküman ve projenin tüm hakları saklıdır. 
