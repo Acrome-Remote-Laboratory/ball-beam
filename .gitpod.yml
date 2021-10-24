@@ -3,12 +3,12 @@ tasks:
   - init: echo 'init script' # runs during prebuild
     command: echo 'start script'    
 
-  - name: SSH_FS
-    init: sshfs.add 
+  #- name: SSH_FS
+  #  init: sshfs.add
 
-  - name: remote_terminal
-    init: ssh pi@149.0.56.172
-    command: echo 'should be working now'    
+#  - name: remote_terminal
+#    init: ssh pi@149.0.56.172
+#    command: echo 'should be working now'    
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
