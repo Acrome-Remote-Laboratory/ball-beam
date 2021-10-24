@@ -1,9 +1,10 @@
 # Remote Lab'da "Ball Beam" Deneyi 
 Bu proje "**Ball Beam**" (Top ve Çubuk) deney setinin **Remote Lab** hizmetinde Python programlama dili ile kullanılması için geliştirilmiştir. 
 
-Diğer diller için:
-<p align="center"> <span>Türkçe</span> |
-<a href="https://github.com/candancaner/ball-beam/blob/main/lang/ReadMe.md/">English</a> |
+
+<p align="center"> Diğer diller için:
+<span>Türkçe</span> |
+<a href="https://github.com/candancaner/ball-beam/blob/main/README.md">English</a> |
 <a href="https://github.com/candancaner/ball-beam/blob/main/lang/french/ReadMe.md/">Français</a>
 </p>
 
