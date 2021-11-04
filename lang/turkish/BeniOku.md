@@ -5,7 +5,7 @@ Dökümanı diğer dillerde okumak için:  [English](https://github.com/candanca
 
 ![Ball Beam Experiment Systems](https://github.com/candancaner/ball-beam/raw/main/images/bb_remotelab.png)
 
-Bu sayfa Remote Lab hizmetini tanıtır ve sistemin kullanımı hakkında genel bilgileri sunar. ![Ball Beam Deneyi Sistemi'nin detaylı anlatımı](https://github.com/candancaner/ball-beam/wiki/T%C3%BCrk%C3%A7e:-Ball-Beam-Deney-Sistemi-Bilgileri) ve deney sisteminin ![bir ders içerisinde nasıl kullanılabileceği](https://github.com/candancaner/ball-beam/wiki/T%C3%BCrk%C3%A7e:-Ball-Beam-Deney-Sisteminin-Ders-%C4%B0%C3%A7erisinde-Kullan%C4%B1lmas%C4%B1) konuları için detaylı bilgileri [**Wiki**](https://github.com/candancaner/ball-beam/wiki) kısmını okuyabilirsiniz.
+Bu sayfa Remote Lab hizmetini tanıtır ve sistemin kullanımı hakkında genel bilgileri sunar. [Ball Beam Deneyi Sistemi'nin detaylı anlatımı](https://github.com/candancaner/ball-beam/wiki/T%C3%BCrk%C3%A7e:-Ball-Beam-Deney-Sistemi-Bilgileri) ve deney sisteminin [bir ders içerisinde nasıl kullanılabileceği](https://github.com/candancaner/ball-beam/wiki/T%C3%BCrk%C3%A7e:-Ball-Beam-Deney-Sisteminin-Ders-%C4%B0%C3%A7erisinde-Kullan%C4%B1lmas%C4%B1) konuları için detaylı bilgileri [**Wiki**](https://github.com/candancaner/ball-beam/wiki) kısmını okuyabilirsiniz.
 
 ### Lisanslama ve Kullanım Şartları
 Remota Lab, bu döküman ve projenin tüm hakları saklıdır. ©2021 [**Acrome Robotik Mekatronik Sistemleri San. ve Tic. A.Ş.**](https://www.acrome.net/) . Lisanslama ve kullanım şartlarına dair bilgi için bkz: [**Remote Lab Hüküm ve Şartlar**](https://remote.acrome.net/hukum-sartlar)
