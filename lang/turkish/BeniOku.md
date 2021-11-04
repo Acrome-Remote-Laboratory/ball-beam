@@ -1,43 +1,39 @@
 # Remote Lab'da "Ball Beam" Deneyi 
-Bu proje "**Ball Beam**" (Top ve Çubuk) deney setinin **Remote Lab** hizmetinde Python programlama dili ile kullanılması için geliştirilmiştir. 
+Bu proje "**Ball Beam**" (Top ve Çubuk) deney setinin **Remote Lab** hizmetinde kullanımı için geliştirilmiştir.
 
-Diğer dillerde bu döküman:  [English](https://github.com/candancaner/ball-beam/blob/main/README.md)  |  [Français](https://github.com/candancaner/ball-beam/blob/main/lang/french/ReadMe.md/)
+Dökümanı diğer dillerde okumak için:  [English](https://github.com/candancaner/ball-beam/blob/main/README.md)  |  [Français](https://github.com/candancaner/ball-beam/blob/main/lang/french/ReadMe.md/)
 
 ![Ball Beam Experiment Systems](https://github.com/candancaner/ball-beam/raw/main/images/bb_remotelab.png)
 
-Bu sayfa Remote Lab hizmet hakkında genel bilgiler sunma amaçlıdır. Ball Beam Deneyi'nin detaylı anlatımı ve bir ders içerisinde kullanımı için [**Wiki**](https://github.com/candancaner/ball-beam/wiki) kısmını okumalısınız.
+Bu sayfa Remote Lab hizmetini tanıtır ve sistemin kullanımı hakkında genel bilgileri sunar. Ball Beam Deneyi'nin detaylı anlatımı ve bir ders içerisinde kullanımı için [**Wiki**](https://github.com/candancaner/ball-beam/wiki) kısmını okuyabilirsiniz.
 
-Remota Lab, bu döküman ve projenin tüm hakları saklıdır. 
-©2021 Acrome Robotik Mekatronik Sistemleri San. ve Tic. A.Ş. 
+### Lisanslama ve Kullanım Şartları
+Remota Lab, bu döküman ve projenin tüm hakları saklıdır. ©2021 [**Acrome Robotik Mekatronik Sistemleri San. ve Tic. A.Ş.**](https://www.acrome.net/) . Lisanslama ve kullanım şartlarına dair bilgi için bkz: [**Remote Lab Hüküm ve Şartlar**](https://remote.acrome.net/hukum-sartlar)
 
-## Lisanslama ve Kullanım Şartları
-Lisanslama ve kullanım şartlarına dair bilgi için bkz. [**Remote Lab Hüküm ve Şartlar**](https://remote.acrome.net/hukum-sartlar)
+# Remote Lab Hizmeti Hakkında
+**Remote Lab**, [ACROME](https://www.acrome.net/) tarafından sunulan çevrimiçi, ücretli bir laboratuvar hizmetidir. Bu hizmete *https://remote.acrome.net* web sitesi üzerinden erişilir.
 
-## Remote Lab Hizmeti ve Kullanımı Hakkında Bilgi
-[**Remote Lab**](https://remote.acrome.net/), ACROME firması tarafından sunulan çevrimiçi, ücretli bir laboratuvar hizmetidir. Bu hizmete *https://remote.acrome.net* web sitesi üzerinden erişilir.
+Remote Lab; belirli lokasyonlardaki gerçek deney sistemlerine internet üzerinden erişim yapılmasını sağlar. Altyapısında çeşitli deney sistemleri bulunur. 
 
-### Genel Bilgi: 
-Remote Lab; kullanıcıların  -ACROME'un veya proje ortaklarının laboratuvarlarındaki-  gerçek deney sistemlerine  internet üzerinden erişim sağlar. Remote Lab altyapısında farklı özelliklerdeki deney sistemleri bulunur. 
+# Remote Lab'ın Kullanımı 
 
-Kullanıcılar; web sitesine entegre randevu arayüzünü kullanarak tercih ettikleri deney sistemlerini belirli bir süre boyunca kullanmak için randevu oluştururlar. <br>
+### Kullanım Akışı:
 
-![Rezervasyon Sayfası](https://raw.githubusercontent.com/candancaner/ball-beam/268dc266d5f0e06884020fc30e136ab4c9fb2ba8/images/BBT%20Booking.PNG)
-Randevu saatinde; randevu oluşturulan deney sistemlerinden boşta hazır bekleyen bir tanesine internet üzerinden erişim sağlanır. İlgili randevu saati süresince; deney sistemine ait web arayüzü -veya tercihen VS Code gibi bir programlama aracı kullanılarak- deney sistemi kullanılır ve deneyler yapılır.
+1. Kullanıcılar; web sitesinde [hesap oluşturduktan](https://github.com/candancaner/ball-beam/wiki/T%C3%BCrk%C3%A7e:-1_Nas%C4%B1l-Kullanabilirim?#11-kullan%C4%B1c%C4%B1-hesab%C4%B1-olu%C5%9Fturmak) sonra entegre randevu arayüzü ile tercih ettikleri deney sistemlerini kullanmak için [rezervasyon yaparlar.](https://github.com/candancaner/ball-beam/wiki/T%C3%BCrk%C3%A7e:-1_Nas%C4%B1l-Kullanabilirim?#12-deney-sistemini-kullanmak-i%C3%A7in-oturum-rezervasyonu-yapmak) <br>
+![Rezervasyon Sayfası](https://github.com/candancaner/ball-beam/raw/main/images/BB_Booking.PNG)
 
-### Remote Lab'ı 2 farklı şekilde kullanabilirsiniz:
+2. Rezervasyon saat dilimi içerisinde; [oturum özet sayfasındaki](https://github.com/candancaner/ball-beam/wiki/T%C3%BCrk%C3%A7e#13-rezervasyon-saatinde-oturumu-a%C3%A7mak) "***Start Session***" tuşuna basılarak deney sistemlerinden bir tanesine internet üzerinden erişim sağlanır. 
 
- 1. Web sitesi üzerinden 
+3. Erişim süresince; tercihen deney sistemine ait [web arayüzünü](https://github.com/candancaner/ball-beam/wiki/T%C3%BCrk%C3%A7e:-1_Nas%C4%B1l-Kullanabilirim?#142-oturum-ara-y%C3%BCz%C3%BCnde-deney-sistemi-kontrolleri), [SSH terminalini](https://github.com/candancaner/ball-beam/wiki/T%C3%BCrk%C3%A7e:-1_Nas%C4%B1l-Kullanabilirim?#21-cihaz-%C3%9Czerinde-uzaktan-yaz%C4%B1l%C4%B1m-geli%C5%9Ftirme) veya [desteklenen yazılım geliştirme araçlarından](https://github.com/candancaner/ball-beam/wiki/T%C3%BCrk%C3%A7e:-1_Nas%C4%B1l-Kullanabilirim?#2-desteklenen-yaz%C4%B1l%C4%B1m-geli%C5%9Ftirme-ara%C3%A7lar%C4%B1-nelerdir) birini kullanarak deneyler yapılır ve web arayüzündeki video penceresinden deney sistemi canlı olarak izlenebilir.
 
-Son olarak, Remote Lab'ı kullanmak 
+![Oturum Sayfası](https://github.com/candancaner/ball-beam/blob/main/images/BB_QDemoMode.PNG?raw=true)
 
- 2. Remote Lab sistemini kişisel olarak kullanmak istiyorsanız; [*Nasıl kullanabilirim?*](https://github.com/candancaner/ball-beam/wiki/T%C3%BCrk%C3%A7e:-1_Nas%C4%B1l-Kullanabilirim%3F) Wiki sayfasını inceleyebilirsiniz.
+4. Rezervasyon saatinin sonunda sistemle olan bağlantı kesilir ve oturum özet sayfasına geçiş yapılır. Opsiyonel olarak [geri bildirim anketi](https://github.com/candancaner/ball-beam/wiki/T%C3%BCrk%C3%A7e:-Sorun-Giderme---Teknik-Destek---Geri-Bildirim) doldurulabilir.
 
- 3. Remote Lab sistemini okulunuzda/kurumunuzda kullandırtmak istiyorsanız; [*Kurumum Nasıl Kullanabilir?*](https://github.com/candancaner/ball-beam/wiki/T%C3%BCrk%C3%A7e:-2_Kurumum-Nas%C4%B1l-Kullanabilir%3F) sayfasını inceleyebilirsiniz.
+5. Yeni bir rezervasyon oluşturularak aynı ya da farklı bir deney sistemi yeniden kullanılabilir.
 
- 4. Hali hazırda bir Remote Lab sistemi kullanıcısıysanız ve Python yazılım dilini kullanarak bir deney yapmak istiyorsanız; [*Örnek deneyi nasıl yapabilirim?*](https://github.com/candancaner/ball-beam/wiki/Nas%C4%B1l-deney-yap%C4%B1l%C4%B1r?#deneyimi-nas%C4%B1l-yapabilirim) sayfasını inceleyebilirsiniz.
+## Destek ve İletişim
 
- 5. Ball Beam deney sistemine ait deneyleri yapmak için; [*Ball Beam Deneylerine Nasıl Erişilir?*](https://github.com/candancaner/ball-beam/wiki/Nas%C4%B1l-deney-yap%C4%B1l%C4%B1r?#deneyimi-nas%C4%B1l-yapabilirim) sekmesini inceleyebilirsiniz.
-
-## S.S.S. ve Teknik Destek
-
- - List item
+ - Teknik konularda destek almak için sayfa üzerindeki Canlı Destek 
+ - Sistemin kullanımına yönelik görüş ve öneriliniz için [info@acrome.net](mailto:info@acrome.net)  adresine yazabilir ya da web sitesindeki irtibat kanallaru üzerinden iletişime geçebilirsiniz. 
+ - Sistem kullanımına yönelik [Sıkça Sorulan Soruları](https://github.com/candancaner/ball-beam/wiki/T%C3%BCrk%C3%A7e:-Sorun-Giderme---Teknik-Destek---Geri-Bildirim#s%C4%B1k%C3%A7a-sorulan-sorular-sss) inceleyebilirsiniz.
