@@ -1,14 +1,16 @@
+# Below libraries are installed by default to the controllers. 
 import remotelab
 import time
 import bb_filter
+
 bb = remotelab.BB()
 
+# Initializations
 err_prev = 0
 error_sum = 0
-
-interval = 0.004
-
+interval = 0.004 # Control period in seconds
 setpoint_cm = 0
+
 #Control Parameters
 kp = 0.2250
 ki = 0.0010
@@ -16,6 +18,7 @@ kd = 0.1000
 feedforward = 750
 windup_abs = 30
 
+# Main Loop
 while True:
     position_analog= bb_filter.filterAnalog(bb.get_position())
     setpoint_analog=(setpoint_cm+25)*80  #(  0 --- 4096 analog value)
